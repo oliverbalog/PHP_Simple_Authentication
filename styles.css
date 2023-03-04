@@ -1,0 +1,24 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .innerContent {
+    background-color: aliceblue;
+    width: 90%;
+    border-radius: 8px;
+    margin-top: 2em;
+    border: 2px solid grey;
+  }
+  .textContent {
+    margin: 2em;
+  }
+
+  input[type="button"], input[type="submit"] {
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    border: 1px solid black;
+    margin-right:0.5em;
+  }
